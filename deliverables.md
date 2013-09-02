@@ -8,6 +8,6 @@
 * Any hosting provider's user account credentials including username and password for uploading, and maintaining files for the website.
 
   
-# Additional extras
+## Additional extras
 
 * Provision of email linked to the registered domain name
