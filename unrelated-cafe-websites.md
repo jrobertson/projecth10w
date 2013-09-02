@@ -1,0 +1,10 @@
+## cafe websites
+* [Hard Rock | Official Site of Hard Rock](http://www.hardrock.com/)
+* [MIMI'S CAFE | HOME](http://www.mimiscafe.com/Default.aspx)
+* [The River Café | Home](http://www.rivercafe.com/)
+* [THE GRIDDLE CAFE - WELCOME](http://www.thegriddlecafe.com/index.html)
+* [Welcome to Cafe Du Monde New Orleans | Cafe Du Monde French Market Coffee Stand](http://cafedumonde.com/)
+* [http://www.thecafemediterranean.com/](http://www.thecafemediterranean.com/)
+* [Café Fontanella | at The Fontanel Mansion](http://cafefontanella.fontanelmansion.com/)
+* [Café | The Westin Diplomat Resort & Spa](http://www.diplomatresort.com/Cafe)
+* [The Bluebird Cafe | Nashville, TN](http://www.bluebirdcafe.com/)
