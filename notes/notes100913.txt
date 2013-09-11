@@ -70,3 +70,19 @@ Possible domain names (listing from GoDaddy.com):
 * [The Elephant House - Gourmet Tea and Coffee Shop in Edinburgh](http://www.elephanthouse.biz/) [elephanthouse.biz]
 * [The Edinburgh Larder deli, cafe and bistro](http://www.edinburghlarder.co.uk/deli_cafe.php?page_id=3) [edinburghlarder.co.uk]
 * [Edinburgh Community Cafes - About](http://www.edinburghcommunitycafes.org.uk/index.html) [edinburghcommunitycafes.org.uk]
+
+----------
+
+Weed need the logos as PNGs
+We need to build the page using Inkscape/
+WE need to look at STock photography.
+what colours are used?
+cream = #FFFDD0
+red = #d30222
+kakhi = #533e3b
+clay green = #858551
+
+How wide? 800px but extends to 1000px outside the central window.
+
+
+Pristina.ttf font downloaded from http://www.fonts101.com/fonts/view/Script/18715/Pristina.aspx
