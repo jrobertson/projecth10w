@@ -41,3 +41,8 @@
   * [Cafe in Edinburgh](http://www.cylex-uk.co.uk/edinburgh/cafe.html) [cylex-uk.co.uk]
   * [Edinburgh Restaurants: Cafes](http://www.edinburghguide.com/venues/restaurants/cafes) [edinburghguide.com]
 
+## Favourite Edinburgh cafe websites
+
+1. [The Elephant House - Gourmet Tea and Coffee Shop in Edinburgh](http://www.elephanthouse.biz/) [elephanthouse.biz]
+2. [The Edinburgh Larder deli, cafe and bistro](http://www.edinburghlarder.co.uk/deli_cafe.php?page_id=3) [edinburghlarder.co.uk]
+3. [Edinburgh Community Cafes - About](http://www.edinburghcommunitycafes.org.uk/index.html) [edinburghcommunitycafes.org.uk]
