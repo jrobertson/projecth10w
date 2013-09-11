@@ -16,9 +16,23 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="home.svg">
+   sodipodi:docname="home.svg"
+   inkscape:export-filename="/home/james/projecth10w/mockup/home2gimp.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient3996">
+      <stop
+         style="stop-color:#fffdd0;stop-opacity:1;"
+         offset="0"
+         id="stop3998" />
+      <stop
+         id="stop4004"
+         offset="1"
+         style="stop-color:#f3f4a7;stop-opacity:0.34615386;" />
+    </linearGradient>
     <linearGradient
        id="linearGradient3949">
       <stop
@@ -153,6 +167,16 @@
        id="linearGradient3972"
        xlink:href="#linearGradient3949-2"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3996"
+       id="linearGradient4002"
+       x1="212.13203"
+       y1="180.59834"
+       x2="1217.2338"
+       y2="180.59834"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2453553,0,0,3.2512787,-365.20648,59.726936)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -161,17 +185,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="648.443"
-     inkscape:cy="583.22522"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="617.14414"
+     inkscape:cy="695.68432"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer17"
      showgrid="false"
      inkscape:window-width="1381"
      inkscape:window-height="867"
-     inkscape:window-x="1778"
-     inkscape:window-y="103"
-     inkscape:window-maximized="0">
+     inkscape:window-x="1838"
+     inkscape:window-y="97"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid4886"
@@ -188,7 +214,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -617,9 +643,23 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer17"
+     inkscape:label="top bground"
+     style="display:inline">
+    <rect
+       style="fill:url(#linearGradient4002);fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3994"
+       width="246.60709"
+       height="840.77771"
+       x="-313.15875"
+       y="226.51367"
+       transform="matrix(-0.0182769,-0.99983296,0.99998831,-0.00483592,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="logo"
-     style="display:inline">
+     style="display:none">
     <image
        y="117.05737"
        x="342.60199"
@@ -794,7 +834,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="image 1"
-     style="display:inline">
+     style="display:none">
     <image
        y="425.54218"
        x="776.29242"
