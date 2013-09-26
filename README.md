@@ -1,6 +1,6 @@
 # ProjectH10W
 
-The [mockup](https://raw.github.com/jrobertson/projecth10w/master/mockup/home.png) is ready for discussion at the next meeting (12th Sep 2013). Prior to creating the mockup I looked at various [cafe websites](unrelated-cafe-websites.md) for ideas, and creative inspiration.
+The [mockup](https://raw.github.com/jrobertson/projecth10w/master/mockup/home.png) was discussed at the [26th September meeting](https://github.com/jrobertson/projecth10w/blob/master/notes/notes260913.md). 
 
 ## Style guide
 
@@ -22,3 +22,8 @@ The [mockup](https://raw.github.com/jrobertson/projecth10w/master/mockup/home.pn
 ### Images
 
 * [Cup of coffee](http://www.istockphoto.com/stock-photo-14441713-cup-of-coffee.php?st=ba267d7) [istockphoto.com]
+
+## Unrelated cafe sites
+
+Prior to creating the mockup I looked at various [cafe websites](unrelated-cafe-websites.md) for ideas, and creative inspiration.
+
