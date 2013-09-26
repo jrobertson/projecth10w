@@ -29,6 +29,6 @@ Prior to creating the mockup I looked at various [cafe websites](unrelated-cafe-
 
 ## Meetings
 
-* 20th Aug 2013 [1st meeting](https://github.com/jrobertson/projecth10w/blob/master/deliverables.md]
+* 20th Aug 2013 [1st meeting](https://github.com/jrobertson/projecth10w/blob/master/deliverables.md)
 * 12th Sep 2013 2nd meeting (wasted journey)
 * 26th Sep 2013 [3rd meeting](https://github.com/jrobertson/projecth10w/blob/master/notes/notes260913.md)
