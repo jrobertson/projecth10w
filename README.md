@@ -1,6 +1,7 @@
 # ProjectH10W
 
-The [mockup](https://raw.github.com/jrobertson/projecth10w/master/mockup/home.png) was discussed at the [26th September meeting](https://github.com/jrobertson/projecth10w/blob/master/notes/notes260913.md). 
+The latest [mockup](https://github.com/jrobertson/projecth10w/blob/master/mockup/mockup_other.png) illustrates the secondary navigation used on the other page.
+The first [mockup](https://raw.github.com/jrobertson/projecth10w/master/mockup/home.png) was discussed at the [26th September meeting](https://github.com/jrobertson/projecth10w/blob/master/notes/notes260913.md). 
 
 ## Style guide
 
