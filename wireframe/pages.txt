@@ -1,0 +1,107 @@
+<?dynarex schema='pages/page(content)'?>
+--+
+
+content:html
+  head
+    title Home | Bay Tree Community Cafe
+  body
+    #wrap
+      #header
+        h1 Bay Tree Community Cafe
+        #nav1
+          ul
+            li home
+            li other
+            li links
+      #cols
+      #footer
+        div
+          markdown:
+            * [Sitemap](/sitemap.html)
+            * [Contact us](/contact-us.html)
+        div
+          markdown:
+            Bay Tree Community Cafe project &copy; 2013
+
+content:nav2
+  div
+    markdown:
+      * [hygiene](/hygiene.html)
+      * [outside catering](/outside-catering.html)
+      * [classes](/classes.html)
+      * [BSA](/bsa.html)
+
+content:Home
+  markdown:
+    # heading
+    some content
+  #sitemap
+    markdown:
+      * [home](/index.html)
+      * other
+        * [hygiene](/hygiene.html)
+        * [outside catering](/outside-catering.html)
+        * [classes](/classes.html)
+        * [BSA](/bsa.html)
+      * [links](/links.html)
+      * [contact us](/contact-us.html)
+
+content:Links
+  markdown:
+    * [link1](about:blank)
+    * [link2](about:blank)
+    * [link3](about:blank)
+
+content:Hygiene
+  div
+    #nav2
+  div
+    div
+      h1 Hygiene
+      img {alt: 'hygiene' src: 'about:blank'}
+    markdown:
+      * bullet point 1
+      * bullet point 2
+      * bullet point 3
+
+      paragraph ewksfls sdfsdlj wrwe
+      paragraph ewksfls sdfsdlj wrwe
+
+content:Outside catering
+  div
+    #nav2
+  div
+    div
+      h1 Outside catering
+      img {alt: 'outside catering' src: 'about:blank'}
+    markdown:
+      paragraph ewksfls sdfsdlj wrwe
+      paragraph ewksfls sdfsdlj wrwe
+
+content:Classes
+  div
+    #nav2
+  div
+    div
+      h1 Classes
+      img {alt: 'classes' src: 'about:blank'}
+    markdown:
+      * bullet point 1
+      * bullet point 2
+      * bullet point 3
+
+content:BSA
+  div
+    #nav2
+  div
+    markdown:
+      # British Science Association
+
+      external link: [www.britishscienceassociation.org/](http://www.britishscienceassociation.org/)
+
+content:contact-us 
+    markdown:
+      # Contact us
+
+      * Telephone: 0131 xxxx xxxx
+      * email: info@xxxxxx.org
