@@ -18,7 +18,7 @@ end
 class Ph10w
 
   def initialize(file, options={})
-    @opt = {flag: :style}.merge options
+    @opt = {style: true}.merge options
     @dynarex = Dynarex.new
     @dynarex.parse File.read file
   end
@@ -69,7 +69,7 @@ class Ph10w
       name = 'index' if name == :Home
       filename = "%s.html" % name.to_s.downcase.gsub(' ','-')
 
-      if @opt[:flag] == :nostyle then
+      if @opt[:style] == false then
         doc.root.xpath('//.[@style]').each {|e| e.attributes.delete :style}
       end
 

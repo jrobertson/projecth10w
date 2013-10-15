@@ -1,0 +1,118 @@
+html {
+  background-color: #fffdd0
+}
+  body {
+    background-color: transparent;
+    align: center;
+    margin: 1.5em;
+    padding: 1.5em
+  }
+    #wrap {
+      background-color: transparent;
+      margin: auto;
+      width: 810px;
+      border: 1px solid #999;
+    }
+      #header {
+        background-color: transparent;
+        background-image: url('file:///home/james/projecth10w/wireframe/images/logo1.png');
+        background-repeat: no-repeat;
+        background-position: 50px 10px;
+        overflow: hidden;
+        margin: 1.6em;
+      }
+        #header h1 {
+          background-color: transparent;
+          text-align: right;
+          margin: 0.8em;
+          padding: 1.3em;
+          font-size: 1.5em;
+        }
+        #nav1 {
+          background-color: transparent;
+          float: right;
+          border: 1px solid #999;
+          margin: 2.3em;
+          margin-right: 2em;        
+          padding: 0.2em;
+        }
+          #nav1 ul {
+            background-color: transparent;
+            margin: 0.5em;
+            padding: 0.3em;
+          }
+            #nav1 ul li {
+              background-color: transparent;
+              display: inline;
+              margin: 0 2em;
+              padding: 0 1.1em;
+
+            }
+
+      #cols {
+        background-color: transparent;
+        min-height: 20em;
+      }
+        #cols div {
+          background-color: transparent;
+          margin: 1em;
+          overflow: hidden;
+        }
+        #cols div:first-child {
+          background-color: transparent;
+          float: left;
+          margin: 0.9em 1.6em;
+          padding: 0.2em 0.9em;
+        }
+
+        #cols div:first-child div{
+          background-color: transparent;
+          border: 1px solid #999;
+
+        }
+
+        #nav2 {
+          background-color: #ff2;
+
+        }
+          #nav2 ul {
+            background-color: transparent;
+            margin-left: 0;
+            padding: 0;
+          }
+            #nav2 ul li {
+              background-color: transparent;
+              padding: 1em;
+              list-style-type: none;
+            }
+              #nav2 ul li a {
+                background-color: transparent
+              }
+
+        #content1 {
+          background-color: transparent;
+          width: 27em
+        }
+
+        #content1 img{
+          background-color: #eeeefe;
+          margin-top: -3.4em;
+          z-index: -100;
+          position: relative;
+        }
+
+      #footer {
+        background-color: transparent;
+        clear: both
+      }
+        #footer div:first-child {
+          background-color: transparent;
+          text-align: right
+        }
+          #footer div ul {
+            background-color: transparent
+          }
+            #footer div ul li {
+              background-color: transparent;
+              display: inline
+            }
