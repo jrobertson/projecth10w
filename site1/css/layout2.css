@@ -1,0 +1,124 @@
+html {
+  background-color: #333;
+}
+  body {
+    background-color: #555;
+    align: center;
+    /*overflow: hidden;*/
+    height: 30em;
+  }
+    #wrap {
+      background-color: #779;
+      margin: auto;
+      width: 810px;
+      min-height: 29em;
+
+    }
+      #header {
+        background-color: #e34db2;
+        overflow: hidden
+      }
+        #header h1 {
+          background-color: #7d53f1
+        }
+        #nav1 {
+          background-color: #4273a9;
+          float: right
+        }
+          #nav1 ul {
+            background-color: #306a54
+          }
+            #nav1 ul li {
+              background-color: #735b44;
+              display: inline
+            }
+              #nav1 ul li a {
+                background-color: #ab830e
+              }
+      #cols {
+        background-color: #aae;
+        min-height: 14em;
+      }
+        #cols div:first-child {
+          background-color: #ff4;
+          float: left;
+          margin-right: 3em;
+          min-width: 5em;
+        }
+          #nav2 {
+            background-color: #fff;
+
+          }
+            #nav2 ul {
+              background-color: #4971d9
+            }
+              #nav2 ul li {
+                background-color: #dbb1b2;
+              }
+                #nav2 ul li a {
+                  background-color: #540aec
+                }
+
+        #cols div:last-child {
+          background-color: #555;
+          float: left;
+          min-width: 13em;
+        }
+
+        /* content */
+        #cols div:last-child div {
+          background-color: #aff;
+          min-width: 7em;
+        }
+          #cols div a {
+            background-color: #5f7db0
+          }
+          #cols div ul {
+            background-color: #fca987
+          }
+            #cols div ul li {
+              background-color: #5b329c
+            }
+              #cols div ul li a {
+                background-color: #e8569b
+              }
+        #cols h1 {
+          background-color: #46b0ad
+        }
+        #cols p {
+          background-color: #176309
+        }
+        #cols ul {
+          background-color: #44449d
+        }
+          #cols ul li {
+            background-color: #23cdc7
+          }
+            #cols ul li a {
+              background-color: #224f72
+            }
+      #footer {
+        background-color: #b9ce50;
+        clear: both
+      }
+        #footer div {
+          background-color: #1c4fde
+        }
+
+        #footer div:first-child {
+          background-color: #fff;
+          height: 3em;
+          display: hidden;
+          text-align: right;
+        }
+
+          #footer div:first-child ul {
+            background-color: #74580c
+          }
+            #footer div:first-child ul li {
+              background-color: #2041d9;
+              display: inline
+            }
+              #footer div:first-child ul li a {
+                background-color: #5cc327
+              }

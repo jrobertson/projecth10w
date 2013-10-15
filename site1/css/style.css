@@ -1,0 +1,167 @@
+html {
+  background-color: transparent
+}
+  body {
+    background-color: transparent;
+/*
+    background-image: url('file:///home/james/projecth10w/mockup/home.png');
+    background-repeat: no-repeat;
+    background-position: 309px -10px;
+*/
+
+      background-image: url('file:///home/james/projecth10w/site1/images/bground_above_sliver.png');
+      background-repeat: x;
+      background-position: 0px 0px;
+
+
+  }
+    #wrap {
+      background-color: #fff;
+      border-radius: 13px;
+      color: #eee;
+
+    }
+      #header {
+         background-color: transparent; 
+       /*  background-color: #fffdd0; */
+
+         background-image: url('file:///home/james/projecth10w/site1/images/logo_top.png'), url('file:///home/james/projecth10w/site1/images/heading.png'), url('file:///home/james/projecth10w/site1/images/header_bground_sliver.png');
+
+          background-position: 97px 72px, 313px 79px, 0px 22px;
+          background-repeat: no-repeat, no-repeat, repeat-x;
+      }
+
+        #nav1 {
+          background-color: #533e3b;
+          border-radius: 10px;
+        }
+          #nav1 ul {
+            background-color: transparent;
+
+          }
+            #nav1 ul li {
+              background-color: transparent;
+            }
+              #nav1 ul li a {
+                background-color: transparent;
+                margin-left: 0em;
+                padding: 0.2em 2.0em;
+                padding-right: 1.8em;
+                color: #fff;
+                font-family: Verdana, Helvetica;
+                font-size: 1.2em;
+                text-decoration: none;
+              }
+              #nav1 ul li.selected {
+                background-color: #858551;
+                border-radius: 10px;
+              }
+      #cols {
+        background-color: #fffdd0;
+        /*margin-top: 0px;*/
+        margin: 0 1.4em;
+      }
+        #cols div {
+          background-color: transparent
+          margin: 0; padding: 0;
+        }
+          #nav2 {
+            background-color: transparent
+          }
+            #nav2 ul {
+              background-color: transparent
+            }
+              #nav2 ul li {
+                background-color: transparent
+              }
+                #nav2 ul li a {
+                  background-color: transparent
+                }
+          #cols div a {
+            background-color: transparent
+          }
+            #cols div a h1 {
+              background-color: transparent;
+              color: #fff;
+              font-family: Verdana, Arial, Helvetica, sans-serif;
+              font-size: 1.3em
+            }
+          #cols div ul {
+            background-color: transparent
+          }
+            #cols div ul li {
+              background-color: transparent
+            }
+              #cols div ul li a {
+                background-color: transparent
+              }
+              #cols div ul li ul {
+                background-color: transparent
+              }
+                #cols div ul li ul li {
+                  background-color: transparent
+                }
+                  #cols div ul li ul li a {
+                    background-color: transparent
+                  }
+          #cols div h1 {
+            background-color: transparent;
+            color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 1.3em
+          }
+        #content1 {
+          background-color: transparent
+        }
+          #content1 h1 {
+            background-color: transparent;
+            color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 1.3em
+          }
+          #content1 img {
+            
+          }
+          #content1 p {
+            background-color: transparent
+          }
+            #content1 p a {
+              background-color: transparent
+            }
+        #cols ul {
+          background-color: transparent
+        }
+          #cols ul li {
+            background-color: transparent
+          }
+            #cols ul li a {
+              background-color: transparent
+            }
+        #cols p {
+          background-color: transparent
+        }
+        #cols h1 {
+          background-color: transparent;
+          color: #fff;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 1.3em
+        }
+      #footer {
+        background-color: transparent
+      }
+        #footer div {
+          background-color: transparent;
+          text-align: right
+        }
+          #footer div ul {
+            background-color: transparent
+          }
+            #footer div ul li {
+              background-color: transparent
+            }
+              #footer div ul li a {
+                background-color: transparent
+              }
+          #footer div p {
+            background-color: transparent
+          }

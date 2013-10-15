@@ -1,0 +1,44 @@
+html { 
+  background-color: #66e;
+}
+
+body {
+  background-color: #aae;
+  align: center;
+}
+
+  #wrap {
+	  background-color: #99b;
+	  margin: auto;
+	  width: 810px;
+    color: #fff
+  }
+
+    #header {
+	    background-color: #77c;
+      overflow: hidden;
+    }
+
+      #nav1 {
+        background-color: #fe4;	
+        float: right;
+      }
+
+        #nav1 ul {
+          background-color: #e3e;
+        }
+
+          #nav1 ul li {
+            background-color: #445;
+            display:inline;
+          }
+    #cols {
+	    background-color: #ccc;
+      
+    }
+
+    #footer {
+	    background-color: #43c;
+      
+    }
+

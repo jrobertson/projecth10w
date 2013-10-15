@@ -1,0 +1,121 @@
+<?dynarex schema='pages/page(content)'?>
+--+
+
+content:html
+  head
+    title Home | Bay Tree Community Cafe
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/layout.css'}
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/style.css'}
+  body {style: 'align: center; margin: 2em; padding: 2em;'}
+    #wrap {style: 'margin: auto; width: 810px; color: #fff'}
+      #header {style:  'overflow: hidden'}
+        h1 {style: 'font:normal normal 32px "Verdana"; text-align: right; padding: 2em;'} Bay Tree Community Cafe project
+        #nav1 {style: 'float: right'}
+          markdown:
+            * {style: 'display:inline'}[home](index.html)
+            * [other](hygiene.html)
+            * [links](links.html)
+      #cols {style: 'overflow: hidden; margin: 0; min-height: 20em; padding: 1.5em'}
+      #footer {style: 'clear: both'}
+        div {style: 'text-align: right'}
+          markdown:
+            * {style: 'display:inline'}[Sitemap](index.html#sitemap)
+            * [Contact us](contact-us.html)
+        div
+          markdown:
+            Bay Tree Community Cafe project &copy; 2013
+
+content:nav2
+  div
+    markdown:
+      * [hygiene](hygiene.html)
+      * [outside catering](outside-catering.html)
+      * [classes](classes.html)
+      * [BSA](bsa.html)
+
+content:Home
+  markdown:
+    # Aliquam nec
+
+    Nulla in ante lacinia, adipiscing augue quis, mattis ligula. Ut tincidunt laoreet turpis, eget volutpat enim tincidunt eu. Duis blandit luctus libero id luctus. Nunc mi enim, interdum scelerisque feugiat nec, feugiat vel arcu. Nunc ac lectus quis est sodales tristique ut sit amet orci. Duis commodo lobortis condimentum. Nam sed nisi vel urna posuere ultricies.
+
+    Aliquam nec urna arcu. Nulla vitae sodales arcu. Integer sagittis lectus ut nisi condimentum mollis eu tincidunt purus. Integer turpis turpis, vulputate vel risus eu, adipiscing semper metus. Nullam iaculis mi neque, in fermentum magna sodales id. Nulla id vestibulum justo. Mauris posuere tincidunt velit, a malesuada justo condimentum vel. Suspendisse consectetur tortor purus, sed varius risus cursus eget. 
+  #sitemap
+    a {name: 'sitemap'}
+      h1 Sitemap
+    markdown:
+      * [home](index.html)
+      * other
+        * [hygiene](hygiene.html)
+        * [outside catering](outside-catering.html)
+        * [classes](classes.html)
+        * [BSA](bsa.html)
+      * [links](links.html)
+      * [contact us](contact-us.html)
+
+content:Links
+  markdown:
+    * [link1](about:blank)
+    * [link2](about:blank)
+    * [link3](about:blank)
+    * [link4](about:blank)
+    * [link5](about:blank)
+    * [link6](about:blank)
+
+content:Hygiene
+  div {style: 'float:left; margin: 2em;'}
+    #nav2
+  #content1 {style: 'width: 27em;'}
+    h1 Hygiene
+    img {alt: 'hygiene', src: 'images/box1.png'}
+  markdown:
+    * bullet point 1
+    * bullet point 2
+    * bullet point 3
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tortor non accumsan aliquet. Suspendisse consectetur tempor pulvinar. Quisque rhoncus in tortor quis cursus. Nam velit nisl, sollicitudin et faucibus non, ornare eget elit. Vestibulum laoreet congue nulla, rutrum pretium justo feugiat et. Quisque a tincidunt nisl. Aenean sagittis euismod diam in posuere. Integer molestie sit amet lectus tincidunt accumsan. Donec molestie tortor erat, volutpat porta risus ullamcorper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    Suspendisse dolor neque, hendrerit in tortor sed, porta varius lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sit amet ligula vulputate, posuere odio in, ullamcorper est. Aliquam eget nisi vel enim mattis iaculis et at lorem. Integer vehicula at purus in malesuada. Nulla sit amet sem nisi. Nam porta in nibh et molestie. Proin velit dolor, adipiscing eu mauris vitae, convallis congue turpis. Donec volutpat elementum nisl, sit amet semper quam cursus in. Proin vitae dignissim orci. Duis elementum mi est, ut molestie libero rutrum ac. 
+
+content:Outside catering
+  div
+    #nav2
+  #content1
+    h1 Outside catering
+    img {alt: 'outside catering', src: 'images/box1.png'}
+  markdown:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices pulvinar justo non mollis. Vestibulum blandit commodo varius. Ut porta nisi sit amet leo egestas luctus. Etiam elementum eleifend tincidunt. Nulla sed lacus ut ipsum euismod fringilla eget eget erat. Duis in metus id elit lobortis dignissim eget at risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras vestibulum sem id ante sollicitudin, in fringilla leo pulvinar.
+
+    Nunc arcu augue, fermentum nec orci dapibus, pellentesque tempor neque. Suspendisse potenti. Morbi nunc eros, ornare quis semper non, facilisis a risus. Donec aliquet vitae magna non vestibulum. Suspendisse lacinia neque consectetur libero condimentum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam tempus commodo augue sed rhoncus. Fusce metus erat, ornare eget accumsan at, porttitor at ante. Integer quis tempor tellus, eget tristique nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent vehicula metus a tincidunt ornare. Nunc aliquam gravida malesuada. Maecenas mattis felis sed lorem sagittis condimentum. Phasellus faucibus scelerisque magna, sed aliquet mi rhoncus a. 
+
+content:Classes
+  div
+    #nav2
+  #content1
+    h1 Classes
+    img {alt: 'classes', src: 'images/box1.png'}
+  markdown:
+    * bullet point 1
+    * bullet point 2
+    * bullet point 3
+
+    Etiam dictum euismod quam id rutrum. Nullam aliquet eu dui non blandit. Vivamus in lorem id nunc rhoncus condimentum nec vel libero. Sed eu arcu quis est fermentum aliquam. Curabitur adipiscing orci condimentum consequat rhoncus. Etiam in diam libero. Mauris dignissim tortor fringilla, bibendum odio id, condimentum magna. Ut vitae libero purus. Aliquam interdum fringilla faucibus. Cras id tincidunt nisi. Etiam id rutrum augue. Sed sed ornare mi.
+
+    Suspendisse ac placerat magna. Phasellus pulvinar sodales libero, luctus rutrum dui elementum id. Sed dictum lobortis leo vulputate aliquet. Quisque rhoncus quis tortor quis eleifend. Vestibulum sollicitudin cursus venenatis. Morbi orci massa, euismod sed rhoncus nec, posuere non ante. Curabitur posuere lacinia tincidunt. Mauris congue elit ac eros rhoncus feugiat. Aenean ultrices, mi vitae varius porta, augue felis egestas neque, sed tempus mauris orci quis eros. Morbi libero lorem, malesuada sed libero quis, euismod rhoncus metus. Cras sagittis non lorem accumsan euismod. Ut luctus ligula ut arcu commodo lacinia iaculis eget urna. 
+
+content:BSA
+  div
+    #nav2
+  #content1
+    markdown:
+      # British Science Association
+
+      external link: [www.britishscienceassociation.org/](http://www.britishscienceassociation.org/)
+
+content:contact-us 
+  #content1
+    markdown:
+      # Contact us
+
+      * Telephone: 0131 xxxx xxxx
+      * email: info@xxxxxx.org

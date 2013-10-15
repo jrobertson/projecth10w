@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <title>Links | Bay Tree Community Cafe'</title>
+    <link rel='stylesheet' type='text/css' href='css/layout.css'/>
+  </head>
+  <body>
+    <div id='wrap'>
+      <div id='header'>
+        <h1>Bay Tree Community Cafe </h1>
+        <div id='nav1'>
+          <ul>
+            <li>
+              <a href='index.html'>home</a>
+            </li>
+            <li>
+              <a href='hygiene.html'>other</a>
+            </li>
+            <li>
+              <a href='links.html'>links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='cols'>
+  <ul>
+    <li>
+      <a href='about:blank'>link1</a>
+    </li>
+    <li>
+      <a href='about:blank'>link2</a>
+    </li>
+    <li>
+      <a href='about:blank'>link3</a>
+    </li>
+    <li>
+      <a href='about:blank'>link4</a>
+    </li>
+    <li>
+      <a href='about:blank'>link5</a>
+    </li>
+    <li>
+      <a href='about:blank'>link6</a>
+    </li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tortor non accumsan</p>
+ aliquet. Suspendisse consectetur tempor pulvinar. Quisque rhoncus in tortor quis cursus. Nam velit nisl, sollicitudin et faucibus non, ornare eget elit. Vestibulum laoreet congue nulla, rutrum pretium justo feugiat et. Quisque a tincidunt nisl. Aenean sagittis euismod diam in posuere. Integer molestie sit amet lectus tincidunt accumsan. Donec molestie tortor erat, volutpat porta risus ullamcorper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+      <div id='footer'>
+        <div>
+          <ul>
+            <li>
+              <a href='index.html#sitemap'>Sitemap</a>
+            </li>
+            <li>
+              <a href='contact-us.html'>Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p>Bay Tree Community Cafe project &copy; 2013</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
