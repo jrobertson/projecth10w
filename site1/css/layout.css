@@ -53,7 +53,7 @@ html {
             }
 
       #cols {
-        background-color: transparent;
+        background-color: #111;
         min-height: 20em;
         
       }
@@ -65,28 +65,28 @@ html {
         #cols div:first-child {
           background-color: transparent;
           float: left;
-          margin: 0.9em 1.6em;
-          padding: 0.2em 0.9em;
+          margin: 0 0.95em 0 0.5em;
+          padding: 0 0.9em;
         }
 
         #cols div:first-child div{
           background-color: transparent;
-          border: 1px solid #999;
-
+          border: 1px solid #a69a7e;
         }
 
         #nav2 {
-          background-color: #ff2;
-
+          background-color: transparent;
         }
           #nav2 ul {
             background-color: transparent;
-            margin-left: 0;
-            padding: 0;
+            margin: 0.2em 0.05em;
+            margin-bottom: 1.8em;
+            padding: 0.5em 0.05em;
           }
             #nav2 ul li {
               background-color: transparent;
-              padding: 1em;
+              margin: 0.57em 0.05em;
+              padding: 0.25em 0.06em;
               list-style-type: none;
             }
               #nav2 ul li a {
@@ -95,14 +95,14 @@ html {
 
         #content1 {
           background-color: transparent;
-          width: 27em
+/*          border: 1px solid #f00;*/
         }
 
         #content1 img{
-          background-color: #eeeefe;
-          margin-top: -3.4em;
+          background-color: #aaa;
+/*          margin-top: -3.4em;
           z-index: -100;
-          position: relative;
+          position: relative;*/
         }
 
       #footer {

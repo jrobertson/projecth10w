@@ -9,7 +9,6 @@ content:html
   body {style: 'align: center; margin: 2em; padding: 2em;'}
     #wrap {style: 'margin: auto; width: 810px; color: #fff'}
       #header {style:  'overflow: hidden'}
-        h1 {style: 'font:normal normal 32px "Verdana"; text-align: right; padding: 2em;'} Bay Tree Community Cafe project
         #nav1 {style: 'float: right'}
           markdown:
             * {style: 'display:inline'}[home](index.html)
@@ -28,9 +27,9 @@ content:html
 content:nav2
   div
     markdown:
-      * [hygiene](hygiene.html)
-      * [outside catering](outside-catering.html)
-      * [classes](classes.html)
+      * [HYGIENE](hygiene.html)
+      * [OUTSIDE CATERING](outside-catering.html)
+      * [CLASSES](classes.html)
       * [BSA](bsa.html)
 
 content:Home

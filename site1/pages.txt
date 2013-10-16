@@ -27,9 +27,9 @@ content:html
 content:nav2
   div
     markdown:
-      * [hygiene](hygiene.html)
-      * [outside catering](outside-catering.html)
-      * [classes](classes.html)
+      * [HYGIENE](hygiene.html)
+      * [OUTSIDE CATERING](outside-catering.html)
+      * [CLASSES](classes.html)
       * [BSA](bsa.html)
 
 content:Home

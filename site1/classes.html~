@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <html>
   <head>
-    <title>Classes | Bay Tree Community Cafe'</title>
+    <title>Classes | Bay Tree Community Cafe</title>
     <link rel='stylesheet' type='text/css' href='css/layout.css'/>
+    <link rel='stylesheet' type='text/css' href='css/style.css'/>
   </head>
   <body>
     <div id='wrap'>
       <div id='header'>
-        <h1>Bay Tree Community Cafe project</h1>
         <div id='nav1'>
           <ul>
             <li>
               <a href='index.html'>home</a>
             </li>
-            <li>
+            <li class='nav1_selected'>
               <a href='hygiene.html'>other</a>
             </li>
             <li>
@@ -26,13 +26,13 @@
   <div>
     <div id='nav2'><ul>
     <li>
-      <a href='hygiene.html'>hygiene</a>
+      <a href='hygiene.html'>HYGIENE</a>
     </li>
     <li>
-      <a href='outside-catering.html'>outside catering</a>
+      <a href='outside-catering.html'>OUTSIDE CATERING</a>
     </li>
-    <li>
-      <a href='classes.html'>classes</a>
+    <li class='nav2_selected'>
+      <a href='classes.html'>CLASSES</a>
     </li>
     <li>
       <a href='bsa.html'>BSA</a>
@@ -40,7 +40,7 @@
   </ul></div>
   </div>
   <div id='content1'>
-    <a name="_"><h1>Classes</h1></a>
+    <h1>Classes</h1>
     <img alt='classes' src='images/box1.png'/>
   </div>
   <ul>

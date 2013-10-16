@@ -4,12 +4,12 @@ html {
   body {
     background-color: transparent;
 /*
-    background-image: url('file:///home/james/projecth10w/mockup/home.png');
+    background-image: url('http://www.jamesrobertson.eu/projects/ph10w/mockup/home.png');
     background-repeat: no-repeat;
     background-position: 309px -10px;
 */
 
-      background-image: url('file:///home/james/projecth10w/site1/images/bground_above_sliver.png');
+      background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/bground_above_sliver.png');
       background-repeat: x;
       background-position: 0px 0px;
 
@@ -25,7 +25,7 @@ html {
          background-color: transparent; 
        /*  background-color: #fffdd0; */
 
-         background-image: url('file:///home/james/projecth10w/site1/images/logo_top.png'), url('file:///home/james/projecth10w/site1/images/heading.png'), url('file:///home/james/projecth10w/site1/images/header_bground_sliver.png');
+         background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/logo_top.png'), url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/heading.png'), url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/header_bground_sliver.png');
 
           background-position: 97px 72px, 313px 79px, 0px 22px;
           background-repeat: no-repeat, no-repeat, repeat-x;
@@ -52,31 +52,76 @@ html {
                 font-size: 1.2em;
                 text-decoration: none;
               }
-              #nav1 ul li.selected {
+              #nav1 ul li.nav1_selected {
                 background-color: #858551;
                 border-radius: 10px;
               }
-      #cols {
-        background-color: #fffdd0;
-        /*margin-top: 0px;*/
-        margin: 0 1.4em;
+
+#cols {
+  background-color: #fffdd0;
+  /*margin-top: 0px;*/
+  margin: 0 1.4em;
+  padding: 1.6em 5.17em 0 2.7em;
+}
+  #cols div {
+    background-color: transparent;
+    margin: 0; padding: 0;
+  }
+    #nav2 {
+      background-color: transparent
+    }
+      #nav2 ul {
+        background-color: transparent
       }
-        #cols div {
-          background-color: transparent
-          margin: 0; padding: 0;
+        #nav2 ul li {
+          background-color: #858551;
+          background-repeat: no-repeat;
         }
-          #nav2 {
-            background-color: transparent
+          #nav2 ul li a {
+            background-color: #39e;
+            color: #fff;
+            display: block;
+            font-family: Verdana, Helvetica;
+            font-size: 0.8em;
+            margin-left: 0.2em;
+            padding: 0.95em 0.8em 0.95em 0.6em;
+            text-decoration: none;
+            width: 11.4em;
           }
-            #nav2 ul {
-              background-color: transparent
-            }
-              #nav2 ul li {
-                background-color: transparent
-              }
-                #nav2 ul li a {
-                  background-color: transparent
-                }
+        #nav2 ul li:first-child {
+          background-color: #858551;
+          background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/hygiene_symbol.png');
+          background-position: 130px 13px;
+        }
+        #nav2 ul li:nth-child(2) {
+          background-color: #858551;
+          background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/catering_symbol.png');
+          background-position: 133px 10px;
+/*          margin: 0.5em;*/
+           padding: 0.2em;
+        }
+          #nav2 ul li:nth-child(2) a {
+            background-color: transparent;
+            display: block;
+            margin: 0;
+            padding: 0.33em 2.2em 0.33em 0.7em;
+            width: 9.95em;
+          
+
+          }
+
+        #nav2 ul li:nth-child(3) {
+          background-color: #858551;
+          background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/classes_symbol.png');
+          background-position: 132px 13px;
+        }
+        #nav2 ul li:last-child {
+          background-color: #858551;
+          background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/bsa_symbol.png');
+          background-position: 133px 15px;
+        }
+
+
           #cols div a {
             background-color: transparent
           }
@@ -110,17 +155,26 @@ html {
             font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 1.3em
           }
+
         #content1 {
-          background-color: transparent
+          background-color: transparent;
+          background-image: url('http://www.jamesrobertson.eu/projects/ph10w/site1/images/content1.png');
+          background-position: 0px 0px;
+          background-repeat: no-repeat;
         }
           #content1 h1 {
-            background-color: transparent;
-            color: #fff;
+            background-color: #111;
+            color: #999;
             font-family: Verdana, Arial, Helvetica, sans-serif;
-            font-size: 1.3em
+            font-size: 1.3em;
+            position: relative;
+            top: -270px;            
+            left: 20px;
           }
           #content1 img {
-            
+            background-color: #379;
+            margin: 1.2em 1.2em 0 1.2em;
+            padding: 0em;
           }
           #content1 p {
             background-color: transparent

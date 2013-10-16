@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <html>
   <head>
-    <title>BSA | Bay Tree Community Cafe</title>
+    <title>contact-us | Bay Tree Community Cafe</title>
     <link rel='stylesheet' type='text/css' href='css/layout.css'/>
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
   </head>
@@ -13,7 +13,7 @@
             <li>
               <a href='index.html'>home</a>
             </li>
-            <li class='nav1_selected'>
+            <li>
               <a href='hygiene.html'>other</a>
             </li>
             <li>
@@ -23,28 +23,12 @@
         </div>
       </div>
       <div id='cols'>
-  <div>
-    <div id='nav2'><ul>
-    <li>
-      <a href='hygiene.html'>HYGIENE</a>
-    </li>
-    <li>
-      <a href='outside-catering.html'>OUTSIDE CATERING</a>
-    </li>
-    <li>
-      <a href='classes.html'>CLASSES</a>
-    </li>
-    <li class='nav2_selected'>
-      <a href='bsa.html'>BSA</a>
-    </li>
-  </ul></div>
-  </div>
   <div id='content1'>
-    <h1>British Science Association</h1>
-    <p>
-      external link: 
-      <a href='http://www.britishscienceassociation.org/'>www.britishscienceassociation.org/</a>
-    </p>
+    <h1>Contact us</h1>
+    <ul>
+      <li>Telephone: 0131 xxxx xxxx</li>
+      <li>email: info@xxxxxx.org</li>
+    </ul>
   </div>
 </div>
       <div id='footer'>
