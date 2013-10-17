@@ -13,9 +13,9 @@ html {
       width: 890px;
     /*  border: 1px solid #999; */
     }
-      #header {
+      header {
 
-        background-color: transparent;
+        background-color: #fff;
 /*
         background-image: url('file:///home/james/projecth10w/wireframe/images/logo1.png');
         background-repeat: no-repeat;
@@ -28,7 +28,7 @@ html {
 
       }
 
-        #nav1 {
+        header nav {
           background-color: transparent;
           float: right;
        /*   border: 1px solid #999; */
@@ -38,13 +38,13 @@ html {
           padding: 0.2em;
           padding-left: 0.1em;
         }
-          #nav1 ul {
+          header nav ul {
             background-color: transparent;
             margin: 0.5em 0.1em;
             margin-left: 0.65em;
             padding: 0.3em 0.1em;
           }
-            #nav1 ul li {
+            header nav ul li {
               background-color: transparent;
               display: inline;
               margin: 0 0.95em;
@@ -53,43 +53,47 @@ html {
             }
 
       #cols {
-        background-color: #111;
+        background-color: transparent;
         min-height: 20em;
         
       }
         #cols div {
           background-color: transparent;
-          margin: 1em;
-          overflow: hidden;
+          /*margin: 1em;*/
+          /*overflow: hidden;*/
+        }      
+        #cols article {
+/*          overflow: hidden;*/
         }
-        #cols div:first-child {
+        #cols div:first-child, #cols div nav {
           background-color: transparent;
           float: left;
           margin: 0 0.95em 0 0.5em;
           padding: 0 0.9em;
+          max-width: 12em;
         }
 
-        #cols div:first-child div{
+        #cols div:first-child nav{
           background-color: transparent;
           border: 1px solid #a69a7e;
         }
 
-        #nav2 {
+        #cols div nav {
           background-color: transparent;
         }
-          #nav2 ul {
+          #cols div nav ul {
             background-color: transparent;
             margin: 0.2em 0.05em;
             margin-bottom: 1.8em;
             padding: 0.5em 0.05em;
           }
-            #nav2 ul li {
+            #cols div nav ul li {
               background-color: transparent;
               margin: 0.57em 0.05em;
               padding: 0.25em 0.06em;
               list-style-type: none;
             }
-              #nav2 ul li a {
+              #cols div nav ul li a {
                 background-color: transparent
               }
 
@@ -105,18 +109,18 @@ html {
           position: relative;*/
         }
 
-      #footer {
+      footer {
         background-color: transparent;
         clear: both
       }
-        #footer div:first-child {
+        footer div:first-child {
           background-color: transparent;
           text-align: right
         }
-          #footer div ul {
+          footer div ul {
             background-color: transparent
           }
-            #footer div ul li {
+            footer div ul li {
               background-color: transparent;
               display: inline
             }

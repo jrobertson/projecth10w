@@ -36,10 +36,11 @@ class Ph10w
 
     other = [:Hygiene, :'Outside catering', :Classes, :BSA]
     level0 = @pages.keys - other 
-
+    puts 'fooo'
     # insert the nav2 code into 'other' pages
     generate_pages(other) do |doc|
-      e = doc.element('//div[@id="nav2"]')
+      e = doc.root.element('div/nav')
+      puts 'e : ' + e.inspect
       e.add nav2.to_doc.root.element('ul')
     end
 
@@ -53,7 +54,7 @@ class Ph10w
   def generate_pages(a)
 
     a.each do |name|
-
+      puts 'name : '  + name.inspect
       doc = @template.to_doc
       doc2 = ("div {id: 'cols'}\n" + @pages[name]).to_doc
       yield(doc2) if block_given?

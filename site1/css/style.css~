@@ -21,7 +21,7 @@ html {
       color: #eee;
 
     }
-      #header {
+      header {
          background-color: transparent; 
        /*  background-color: #fffdd0; */
 
@@ -31,18 +31,18 @@ html {
           background-repeat: no-repeat, no-repeat, repeat-x;
       }
 
-        #nav1 {
+        header nav {
           background-color: #533e3b;
           border-radius: 10px;
         }
-          #nav1 ul {
+          header nav ul {
             background-color: transparent;
 
           }
-            #nav1 ul li {
+            header nav ul li {
               background-color: transparent;
             }
-              #nav1 ul li a {
+              header nav ul li a {
                 background-color: transparent;
                 margin-left: 0em;
                 padding: 0.2em 2.0em;
@@ -52,33 +52,42 @@ html {
                 font-size: 1.2em;
                 text-decoration: none;
               }
-              #nav1 ul li.nav1_selected {
+              header nav ul li.selected {
                 background-color: #858551;
                 border-radius: 10px;
               }
 
 #cols {
-  background-color: #fffdd0;
+  background-color: fffdd0;
+/*  background-color: transparent;*/
   /*margin-top: 0px;*/
   margin: 0 1.4em;
-  padding: 1.6em 5.17em 0 2.7em;
+  padding: 1.6em 2.7em 0 2.7em;
+  overflow: hidden;
 }
   #cols div {
     background-color: transparent;
     margin: 0; padding: 0;
   }
-    #nav2 {
+
+  #cols div:first-child{
+    background-color: transparent;
+    margin-right: 2.5em;
+
+  }
+
+    #cols div nav {
       background-color: transparent
     }
-      #nav2 ul {
+      #cols div nav ul {
         background-color: transparent
       }
-        #nav2 ul li {
+        #cols div nav ul li {
           background-color: #858551;
           background-repeat: no-repeat;
         }
-          #nav2 ul li a {
-            background-color: #39e;
+          #cols div nav ul li a {
+            background-color: transparent;
             color: #fff;
             display: block;
             font-family: Verdana, Helvetica;
@@ -88,19 +97,19 @@ html {
             text-decoration: none;
             width: 11.4em;
           }
-        #nav2 ul li:first-child {
+        #cols div nav ul li:first-child {
           background-color: #858551;
           background-image: url('file:///home/james/projecth10w/site1/images/hygiene_symbol.png');
           background-position: 130px 13px;
         }
-        #nav2 ul li:nth-child(2) {
+        #cols div nav ul li:nth-child(2) {
           background-color: #858551;
           background-image: url('file:///home/james/projecth10w/site1/images/catering_symbol.png');
           background-position: 133px 10px;
 /*          margin: 0.5em;*/
            padding: 0.2em;
         }
-          #nav2 ul li:nth-child(2) a {
+          #cols div nav ul li:nth-child(2) a {
             background-color: transparent;
             display: block;
             margin: 0;
@@ -110,12 +119,12 @@ html {
 
           }
 
-        #nav2 ul li:nth-child(3) {
+        #cols div nav ul li:nth-child(3) {
           background-color: #858551;
           background-image: url('file:///home/james/projecth10w/site1/images/classes_symbol.png');
           background-position: 132px 13px;
         }
-        #nav2 ul li:last-child {
+        #cols div nav ul li:last-child {
           background-color: #858551;
           background-image: url('file:///home/james/projecth10w/site1/images/bsa_symbol.png');
           background-position: 133px 15px;
@@ -149,73 +158,100 @@ html {
                   #cols div ul li ul li a {
                     background-color: transparent
                   }
-          #cols div h1 {
-            background-color: transparent;
-            color: #fff;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            font-size: 1.3em
-          }
 
         #content1 {
           background-color: transparent;
           background-image: url('file:///home/james/projecth10w/site1/images/content1.png');
           background-position: 0px 0px;
           background-repeat: no-repeat;
+
+          position: relative;
+          top: -9px;            
+          left: 16px;
+          z-index: 2;
+ 
+
+          overflow: hidden;
         }
-          #content1 h1 {
-            background-color: #111;
-            color: #999;
+
+        article {
+          background-color: #992;
+          margin: 1em;
+          padding: 2em;
+        }
+        
+        article#other {
+          background-color: transparent;
+            color: #535551;
+          margin: 0.1em 1.7em;
+          margin-top: -3.33em;
+          padding: 0.2em 1em;
+        }
+
+          article#other h1:first-child {
+            background-color: transparent;
+            color: #535551;
+
             font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 1.3em;
             position: relative;
-            top: -290px;            
-            left: 20px;
+            z-index: 3;
+            top: 45px;
+            left: 265px;
           }
+        .simple {
+          background-color: #858551;
+          overflow: hidden;
+          margin: 0.3em 2em 1.3em 3.5em;
+          padding: 1.0em;
+          
+        }
+        .simple h1 {
+          background-color: transparent;
+          margin: 0.1em;
+          padding: 0.3em;
+        }
+
           #content1 img {
             background-color: #379;
-            margin: 1.2em 1.2em 0 1.2em;
-            padding: 0em;
+            margin: 1.0em 0.3em 2.8em 1.5em;
+
           }
           #content1 p {
             background-color: transparent
           }
             #content1 p a {
               background-color: transparent
-            }
-        #cols ul {
+            }    
+        article ul {
           background-color: transparent
         }
-          #cols ul li {
+          article ul li {
             background-color: transparent
           }
-            #cols ul li a {
+            article ul li a {
               background-color: transparent
             }
-        #cols p {
+        article p {
           background-color: transparent
         }
-        #cols h1 {
-          background-color: transparent;
-          color: #fff;
-          font-family: Verdana, Arial, Helvetica, sans-serif;
-          font-size: 1.3em
-        }
-      #footer {
+
+      footer {
         background-color: transparent
       }
-        #footer div {
+        footer div {
           background-color: transparent;
           text-align: right
         }
-          #footer div ul {
+          footer div ul {
             background-color: transparent
           }
-            #footer div ul li {
+            footer div ul li {
               background-color: transparent
             }
-              #footer div ul li a {
+              footer div ul li a {
                 background-color: transparent
               }
-          #footer div p {
+          footer div p {
             background-color: transparent
           }
