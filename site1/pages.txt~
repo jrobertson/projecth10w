@@ -9,12 +9,14 @@ content:html
   body {style: 'align: center; margin: 2em; padding: 2em;'}
     #wrap {style: 'margin: auto; width: 810px; color: #fff'}
       header {style:  'overflow: hidden'}
-        nav {style: 'float: right'}
-          markdown:
-            * {style: 'display:inline'}[home](index.html)
-            * [other](hygiene.html)
-            * [links](links.html)
-      #cols {style: 'overflow: hidden; margin: 0; min-height: 20em; padding: 1.5em'}
+        div
+          nav {style: 'float: right'}
+            markdown:
+              * {style: 'display:inline'}[home](index.html)
+              * [other](hygiene.html)
+              * [links](links.html)
+      #main 
+        #cols {style: 'overflow: hidden; margin: 0; min-height: 20em; padding: 1.5em'}
       footer {style: 'clear: both'}
         div {style: 'text-align: right'}
           markdown:
@@ -35,9 +37,11 @@ content:nav2
 content:Home
   article
     markdown:
-      # Aliquam nec
+      # Heading 1
 
-      Nulla in ante lacinia, adipiscing augue quis, mattis ligula. Ut tincidunt laoreet turpis, eget volutpat enim tincidunt eu. Duis blandit luctus libero id luctus. Nunc mi enim, interdum scelerisque feugiat nec, feugiat vel arcu. Nunc ac lectus quis est sodales tristique ut sit amet orci. Duis commodo lobortis condimentum. Nam sed nisi vel urna posuere ultricies.
+      Donec molestie tortor et sem 
+feugiat, pharetra ultricies mi 
+egestas. Phasellus volutpat nun
 
       Aliquam nec urna arcu. Nulla vitae sodales arcu. Integer sagittis lectus ut nisi condimentum mollis eu tincidunt purus. Integer turpis turpis, vulputate vel risus eu, adipiscing semper metus. Nullam iaculis mi neque, in fermentum magna sodales id. Nulla id vestibulum justo. Mauris posuere tincidunt velit, a malesuada justo condimentum vel. Suspendisse consectetur tortor purus, sed varius risus cursus eget. 
   section#sitemap
@@ -54,7 +58,7 @@ content:Home
       * [contact us](contact-us.html)
 
 content:Links
-  section
+  section#links
     markdown:
       * [link1](about:blank)
       * [link2](about:blank)
@@ -116,7 +120,7 @@ content:BSA
 
       external link: [www.britishscienceassociation.org/](http://www.britishscienceassociation.org/)
 
-content:contact-us
+content:Contact us
   article 
     markdown:
       # Contact us

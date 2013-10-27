@@ -6,8 +6,10 @@
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
   </head>
   <body>
+    <div id="bottom-logo">foo yung</div> 
     <div id='wrap'>
       <header>
+        <div>
         <nav>
           <ul>
             <li>
@@ -21,7 +23,9 @@
             </li>
           </ul>
         </nav>
+        </div>
       </header>
+      <div id='main'>
       <div id='cols'>
   <div>
     <nav><ul>
@@ -38,9 +42,8 @@
       <a href='bsa.html'>BSA</a>
     </li>
   </ul></nav>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tortor non accumsan aliquet. Suspendisse consectetur tempor pulvinar. Quisque rhoncus in tortor quis cursus. Nam velit nisl, sollicitudin et faucibus non, ornare eget elit. Vestibulum laoreet congue nulla, rutrum pretium justo feugiat et. Quisque a tincidunt nisl. Aenean sagittis euismod diam in posu</p>
   </div>
-  <article>
+  <article id='other'>
     <h1>Hygiene</h1>
     <div id='content1'>
       <img alt='hygiene' src='images/box1.png'/>
@@ -53,6 +56,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tortor non accumsan aliquet. Suspendisse consectetur tempor pulvinar. Quisque rhoncus in tortor quis cursus. Nam velit nisl, sollicitudin et faucibus non, ornare eget elit. Vestibulum laoreet congue nulla, rutrum pretium justo feugiat et. Quisque a tincidunt nisl. Aenean sagittis euismod diam in posuere. Integer molestie sit amet lectus tincidunt accumsan. Donec molestie tortor erat, volutpat porta risus ullamcorper pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <p>Suspendisse dolor neque, hendrerit in tortor sed, porta varius lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sit amet ligula vulputate, posuere odio in, ullamcorper est. Aliquam eget nisi vel enim mattis iaculis et at lorem. Integer vehicula at purus in malesuada. Nulla sit amet sem nisi. Nam porta in nibh et molestie. Proin velit dolor, adipiscing eu mauris vitae, convallis congue turpis. Donec volutpat elementum nisl, sit amet semper quam cursus in. Proin vitae dignissim orci. Duis elementum mi est, ut molestie libero rutrum ac.</p>
   </article>
+</div>
 </div>
       <footer>
         <div>
@@ -70,5 +74,6 @@
         </div>
       </footer>
     </div>
+
   </body>
 </html>
