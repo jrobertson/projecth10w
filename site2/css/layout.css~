@@ -1,0 +1,80 @@
+html {
+  background-color: transparent
+}
+  body {
+    background-color: transparent;
+    align: center;
+    margin: 1em 0.5em 0.1em 0.5em;
+    padding: 1.5em 0.8em 0.2em 0.8em;
+  }
+    #wrap {
+      background-color: #666;
+      margin: auto;
+      width: 890px
+    }
+      header {
+        overflow: hidden
+      }
+        header>div {
+          background-color: transparent;
+        }
+
+        header>div>div:first-child {
+          background-color: transparent;
+          float: left;
+        }
+        header>div>div+div {
+          background-color: transparent;
+          float: right;
+        }
+        header>div div h1 {
+          background-color: transparent;
+          height: 200px;
+          margin: 0;
+          padding: 0;
+          width: 164px;
+        }
+
+        header nav {
+          background-color: transparent
+        }
+          header nav ul {
+            background-color: transparent
+          }
+            header nav ul li {
+              background-color: transparent;
+              display: inline
+            }
+      #wrap>div {
+        background-color: transparent
+      }
+        #wrap #main {
+          background-color: transparent
+        }
+
+      footer {
+        background-color: transparent
+      }
+        footer>section {
+          background-color: transparent;
+          column-count: 4
+        }
+          footer>section>ul {
+            background-color: transparent
+          }
+            footer>section>ul>li {
+              background-color: transparent;
+            }
+        footer>div {
+          background-color: transparent;
+          text-align: right
+        }
+          footer div ul {
+            background-color: transparent
+          }
+            footer div ul li {
+              background-color: transparent;
+              display: inline
+            }
+
+

@@ -1,0 +1,277 @@
+html {
+  background-color: transparent;
+}
+  body {
+    background-color: #858551;
+    background-image: url('file:///home/james/projecth10w/site2/images/bground_above_sliver.png'), url('file:///home/james/projecth10w/site2/images/footer_bground.png')  ;
+    background-repeat: repeat-x, repeat-x;
+    background-position: top, bottom;
+  }
+    #wrap {
+      background-color: transparent;
+    }
+      header {
+        background-color: #fff; 
+        border-radius: 13px 13px 0 0;
+        margin: 0em;
+        padding: 1.4em;
+        padding-bottom: 0em;        
+      }
+        header>div{
+          background-color: transparent;
+          background-image:  url('file:///home/james/projecth10w/site2/images/header_bground_sliver.png');
+          background-position: 0px 0px;
+          background-repeat: repeat-x;
+          overflow: hidden;
+        }
+          header>div>div:first-child {
+            background-color: transparent;
+            background-image: url('file:///home/james/projecth10w/site2/images/baytree_logo.png');
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+
+            margin: 2em 2em 2.0em 6.3em;
+            text-indent: -9999px;
+            padding: 0.1em;
+          }
+          header>div>div>a {
+            background-color: transparent
+          }
+            header>div>div>a>h1 {
+              background-color: transparent;
+            }
+
+          header>div>div+div {
+            background-color: transparent;
+            margin: 2.8em 0.2em;
+            padding: 1.55em 0.2em;
+          }
+          header>div>div+div>ul {
+            background-color: transparent;
+            margin: 0.2em;
+            padding: 0.2em;
+          }
+            header>div>div+div>ul>li {
+              background-color: transparent;
+              color: #7a6959;
+              font-family: Pristina, Helvetica;
+              font-size: 2.2em;
+              list-style-type: none;
+              margin: 0.1em;
+              padding: 0.2em;
+            }
+              header>div>div+div>ul>li>a {
+                background-color: transparent;
+                color: #695848;
+                text-decoration: none;
+              }
+              header>div>div+div>ul>li>a:hover {
+                background-color: transparent;
+                color: #8b6959;
+              }
+        header nav {
+          background-color: #7a6959;
+          margin-top: 17em; 
+        }
+          header nav>ul {
+            background-color: transparent;
+            margin: 0em 1.2em;
+            padding: 0em 1.9em;
+          }
+            header nav>ul>li {
+              background-color: transparent;
+              color: #fff;
+              margin: 0em 0.1em;
+              padding: 0.2em 0.4em;
+            }
+              header nav>ul>li>a {
+                background-color: transparent;
+                color: #fff;
+                margin: 0em;
+                padding: 0em 0.3em;
+                font-family: Helvetica, Verdana;
+                font-size: 1.2em;
+                text-decoration: none;
+              }
+
+              header nav>ul>li>a:hover {
+                background-color: transparent;
+                color: #fffdd0;
+              }
+            header nav>ul>li.selected {
+              background-color: #858551;
+
+            }
+
+      #wrap {
+        background-color: transparent;
+      }
+
+        #wrap>div {
+          background-color: #fff;
+          border-radius: 0 0 13px 13px;
+          overflow: hidden;
+        }
+        #wrap #main {
+          background-color: #fffdd0;
+          color: #7a6959;
+          background-image: url('file:///home/james/projecth10w/site2/images/lower_pg_bground.png');
+          background-position: bottom;
+          background-repeat: repeat-x;
+          margin: 0 1.4em 1.4em 1.4em;
+          overflow: hidden;
+          min-height: 24em;
+          padding: 2.6em 3.4em 2.6em 2.7em;
+
+        }
+
+        article {
+          background-color: transparent;
+          font-family: Sans, Verdana, Arial;
+          font-size: 1.3em;
+
+          margin: 0.1em;
+          padding: 0.5em 1.9em 0.5em 0.3em;
+
+        }
+          article h1 {
+            background-color: transparent;
+            font-family: Sans, Verdana, Arial;
+            font-size: 1.6em;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            margin: 0.1em 0;
+            padding: 0.33em 0;
+          }
+
+          article h2 {
+            background-color: transparent;
+            font-family: Sans, Verdana, Arial;
+            font-size: 1.3em;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            margin: 0.1em 0;
+            padding: 0.33em 0;
+          }
+
+          article ul {
+            background-color: transparent;
+            margin: 0.3em; padding: 0.8em;
+          }
+
+          article ul li {
+            background-color: transparent;
+            margin: 0.4em; padding: 0.7em;
+          }
+
+
+          article:first-child>h1 {
+            background-color: transparent;
+            font-family: Sans, Verdana, Arial;
+            font-size: 1.6em;
+            font-style: italic;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            margin: 0.1em 0;
+            padding: 0.33em 0;
+          }
+
+          article:first-child>img {
+            background-color: transparent;
+            float:right; background-color: transparent; padding: 0.3em
+          }
+
+          article:first-child>h1+p {
+            background-color: transparent;
+            font-family: Sans, Verdana, Arial;
+            font-size: 1.23em;
+            font-style: italic;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            margin: 0.1em 0;
+            padding: 0.3em 0;
+          }
+
+            #content1 {
+              background-color: #a9759f
+            }
+              #content1 img {
+                
+              }
+
+
+      footer {
+        background-color: transparent;        
+        background-image: url('file:///home/james/projecth10w/site2/images/lower_logo.png');
+        background-repeat: no-repeat;
+        background-position: 55px 41px;
+        color: #fff;
+        font-family: Helvetica, Verdana;
+        margin: 1em 0.5em 0em 1em;
+        padding: 1.5em 1em 0em 2em;
+      }
+          footer>section {
+            background-color: transparent;            
+            float: right;
+            margin: 1em 1.3em;
+            padding: 1.3em 1.9em;
+            width: 26.8em;
+          }
+
+            footer>section ul {
+              background-color: transparent;
+              margin: 0.1em 0.2em; padding: 0;
+              float: left;
+              width: 6.1em;
+            }
+              footer>section ul li {
+                background-color: transparent;
+                color: #fff;                
+                list-style-type: none;
+                margin: 0.1em 0; padding: 0.1em 0.5em;          
+                font-size: 1.1em;
+              }
+                footer>section ul li p {
+                  background-color: #567;          
+                  margin: 0; padding: 0;
+                }
+                footer ul li a {
+                  background-color: transparent;
+                  color: #fff;
+                  text-decoration: none;
+                }
+                footer>section ul li a {
+                  background-color: transparent;          
+                  margin: 0; padding: 0;
+                }
+                footer  a:hover {
+                  background-color: transparent;
+                  color: #e5e551;
+                }
+
+        footer div {
+          background-color: transparent;
+          text-align: right;
+          clear: both;
+        }
+          footer div ul {
+            background-color: transparent
+          }
+            footer div ul li {
+              background-color: transparent
+            }
+              footer div ul li a {
+                background-color: transparent
+              }
+          footer div p {
+            background-color: transparent;
+            font-size: 0.846em;
+          }
+
+.home nav>ul>li:first-child, 
+.training nav>ul>li:nth-child(2),
+.catering nav>ul>li:nth-child(3),
+.other nav>ul>li:nth-child(4)  {
+  background-color: #858551; 
+}
+

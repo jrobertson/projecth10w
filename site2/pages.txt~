@@ -1,0 +1,212 @@
+<?dynarex schema='pages/page(content)'?>
+--+
+
+content:html
+  head {lang: 'en'}
+    title Bay Tree Community Café
+    meta {charset: 'utf-8'}
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/layout.css'}
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/style.css'}
+  body {style: 'align: center; margin: 2em; padding: 2em;'}
+    #wrap {style: 'margin: auto; width: 810px; color: #fff'}
+      header {style:  'overflow: hidden'}
+        div
+          div
+            a {href: 'index.html'}
+              h1 Bay Tree Community Café Project
+          div {style: 'float: right'}
+            markdown:
+              * Telephone: 0131 xxx xxxx
+              * email: <info@xxxxxx.org.uk>
+          nav
+            markdown:
+              * {style: 'display:inline'}[home](index.html)
+              * [training](training.html)
+              * [catering](catering.html)
+              * [other](other.html)
+      div 
+        #main {style: 'overflow: hidden; margin: 0; min-height: 20em; padding: 1.5em'}
+      footer 
+        section {style: 'float: left'}
+          ul
+            li
+              a {href: 'index.html'} home 
+            li &nbsp;
+            li &nbsp;
+            li &nbsp;
+          ul
+            li
+              a {href: 'training.html'} training 
+            li &nbsp;
+            li &nbsp;
+            li &nbsp;
+          ul
+            li
+              a {href: 'catering.html'} catering 
+            li &nbsp;
+            li &nbsp;
+            li &nbsp;
+          ul
+            li
+              a {href: 'other.html'} other 
+            li &nbsp;
+            li &nbsp;
+            li &nbsp;
+
+        div {style: 'text-align: right'}
+          markdown:
+            * {style: 'display:inline'}[Sitemap](sitemap.html)
+            * [Contact us](contact-us.html)
+
+            Bay Tree Community Café project &copy; 2014
+
+content:Home
+  article
+      img {src: 'images/cup_of_coffee.png', alt: 'cup of coffee'}
+    markdown:
+      # Who are we?
+      We are a community social enterprise which promotes individual and community development by:
+
+      * providing training and volunteering opportunities
+      * Helping people and communities to overcome the barriers which can make it difficult to live a happy healthy life. 
+
+      # The services we offer:
+
+      * A community café (opening soon, keep checking this website for details)
+      * Training: we offer a variety of training sessions on topics related to food and health including REHIS-certified food hygiene training and cooking classes. Keep checking this website for details of our programme
+      * Outside catering: we offer a great value range of top quality outside catering for private, commercial and charity/third sector functions.
+
+      We also have stalls at a number of farmers' markets across Edinburgh. Keep checking this website for details.
+
+content:Training
+  article#other
+    h1 Training
+    #content1 {style: 'width: 27em;'}
+      img {alt: 'hygiene', src: 'images/box1.png'}
+    markdown:
+      ## Tasty Home cooked Dinners
+      No need to give up on your favourite take away dinner just because times are hard financially or you want to be healthy. Come and learn how to make your favourite take away dinners at home and in such a way that taste wins out over calories. Challenge yourself so that home style takeaways mean you can keep having them any time you fancy. **You need to bring ingredients each week.**
+
+      ## Cook Well for Less
+      If you are struggling to come up with ideas for tasty, healthy and low cost meals, this is the class for you. Not sure how to create your favourite meals at home and fearful of trying new recipes and ingredients? Take advantage of the tutor bringing in the ingredients for this class, to prove how small budgets can provide great meals and build up your confidence in the kitchen.
+
+      ## Tasty Treats and the Secret Garden
+      Have you heard about the secret garden close to Leith? Want to find out more? Why not join us for an inspiring and delicious food tasting in very special surroundings.  We will provide a selection of traditional Scottish favourite food and some exotic treats for you to try out. There will also be recipes and information on how best to use these ingredients at home, whatever your lifestyle and budget. Enjoy the chance to have some stimulating conversation and meet other people in the area whilst also enjoying a relaxing day including a guided walk round the garden. There will be a short walk from Leith Academy (approximately 20 minutes) so make sure you wear comfy shoes and are prepared for the Scottish weather.
+
+content:Catering
+  article
+    h1 Catering
+    #content1
+      img {alt: 'outside catering', src: 'images/box1.png'}
+    markdown:
+      # Outside Catering Menu
+
+
+      ## Pick and Mix Finger Buffet Options
+      Please select any combination of the following
+
+      * Soup
+      * Sandwiches
+      * Savouries 
+      * Crisps, crudités and dips
+      * Cakes and pastries
+      * Fruit platter
+
+      **Each option £1.50/person**
+
+      ## To let you know more . . 
+
+      ### Soup
+      Fresh seasonal homemade soup such as ham and lentil, minestrone (V), carrot and coriander (V) or chicken and leek. Please let us know if you have any particular preference.
+
+      ### Sandwiches
+      A selection of fillings such as tuna, mayo, cheese, egg mayo, ham and chicken served with a variety of fresh seasonal salads and relishes.
+
+      For an extra 50p/person we will include our premium fillings from a selection of roast beef, tarragon roast chicken, salmon, prawns and hommous.
+
+      ### Savouries
+      A selection of savouries including sausage rolls, homemade quiche (vegetarian on demand), spring rolls (V), onion bajhis (V), pizza slices and our special homemade puff pastry slices (vegetarian on demand).
+
+      ### Crisps, crudités and dips
+      A selection of dips such as tomato salsa, hommous and cream cheese and chive served with crisps or tortilla chips and batons of freshly sliced vegetable batons.
+
+      ### Cakes and pastries
+      A selection of fresh cakes and pastries including homemade flapjacks, chocolate brownies and cupcakes.
+
+      ### Fruit platter
+      A freshly prepared platter of seasonal fruits including apple, orange, kiwi, grapes, bananas and strawberries. For an extra 50p/person you can upgrade to include fresh tropical fruits such as pineapple, mango and passion fruit.
+
+      **All our platters are garnished with fresh, seasonal salads and fruit.**
+
+      ## Pick and Mix Fork Buffet Options
+      Please select any combination of the following
+
+      Each option £2.50/person
+
+      ### Carved meat platter
+      A selection of carved meats such as stuffed roast chicken, breaded ham and roast beef with a deli selection such as parma ham, chorizo and pastrami.
+
+      ### Seafood platter
+      A selection of fresh seafood such as smoked salmon, poached salmon, prawns, smoked mackerel and mussels.
+
+      ### Cheeseboard and biscuits
+      A selection of British and continental cheeses served with a variety of savoury biscuits and garnished with apple, grapes and celery.
+
+      ### Fresh seasonal salads
+      Homemade salads prepared from fresh seasonal leaves and vegetables and a variety of pulses and grains. 
+
+      ## Children’s parties
+
+      Our set menu includes
+
+      * Sandwiches
+      * Assorted savouries
+      * Crisps
+      * Cupcakes
+      * Jelly and ice cream
+
+      FREE FRUIT PLATTER AND VEGETABLE STICKS
+
+      £2.50/person
+
+      For an extra 60p/person we will supply party cups and plates, napkins and streamers.
+
+      Birthday cakes from £3.50
+
+      The Bay tree Community café Project
+      <Baytreese@gmail.com>
+      Mobile 07505525447
+
+      Please let us know if you have any particular requirements or preferences. We are more than happy to cater for diets such as vegan, gluten free, dairy free, Kosher and halal. 
+
+content:Other
+  article
+    h1 Classes
+    #content1
+      img {alt: 'classes', src: 'images/box1.png'}
+    markdown:
+      * bullet point 1
+      * bullet point 2
+      * bullet point 3
+
+      Etiam dictum euismod quam id rutrum. Nullam aliquet eu dui non blandit. Vivamus in lorem id nunc rhoncus condimentum nec vel libero. Sed eu arcu quis est fermentum aliquam. Curabitur adipiscing orci condimentum consequat rhoncus. Etiam in diam libero. Mauris dignissim tortor fringilla, bibendum odio id, condimentum magna. Ut vitae libero purus. Aliquam interdum fringilla faucibus. Cras id tincidunt nisi. Etiam id rutrum augue. Sed sed ornare mi.
+
+      Suspendisse ac placerat magna. Phasellus pulvinar sodales libero, luctus rutrum dui elementum id. Sed dictum lobortis leo vulputate aliquet. Quisque rhoncus quis tortor quis eleifend. Vestibulum sollicitudin cursus venenatis. Morbi orci massa, euismod sed rhoncus nec, posuere non ante. Curabitur posuere lacinia tincidunt. Mauris congue elit ac eros rhoncus feugiat. Aenean ultrices, mi vitae varius porta, augue felis egestas neque, sed tempus mauris orci quis eros. Morbi libero lorem, malesuada sed libero quis, euismod rhoncus metus. Cras sagittis non lorem accumsan euismod. Ut luctus ligula ut arcu commodo lacinia iaculis eget urna. 
+
+content:Contact us
+  section
+    markdown:
+      # Contact us
+
+      * Telephone: 0131 xxxx xxxx
+      * email: info@xxxxxx.org.uk
+
+content:Sitemap
+  markdown:
+    # Sitemap
+
+    * [home](index.html)
+    * [Training](training.html)
+    * [Catering](catering.html)
+    * [Other](other.html)
+    * [contact us](contact-us.html)
