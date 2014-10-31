@@ -1,0 +1,56 @@
+html {lang: 'en'}
+  head
+    title Bay Tree Community Café
+    meta {charset: 'utf-8'}
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/layout.css'}
+    link {rel: 'stylesheet', type: 'text/css', href: 'css/style.css'}
+
+  body {style: 'text-align: center; margin: 2em; padding: 2em;'}
+    #wrap {style: 'margin: auto; width: 810px; color: #f56'}
+      header
+        nav {style: 'list-style-type: none' }
+          markdown:
+            * {style: 'display: inline'}[Events](#events)
+            * [Training](#training)
+          markdown:
+            * {style: 'display: inline'}[About us](#about_us)
+            * [Contact us](#contact_us)
+
+      section
+        p We love to cook and to do good
+
+      section
+        markdown:
+          # <a name='events'>Upcoming events</a>
+          ## International Street Food
+
+          * St Marys Cathedral Farmer’s Market, Edinburgh
+          * 8th of November 2014 from 9am to 2pm
+
+          Join us on an International day and enjoy the best street food from around the world. ivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus oncus ut eleifend nib portitor. Lorem in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum    giatrent nisl urekgot dapibus. Mauris iaculis porttitor posuere.
+
+      section
+        markdown:
+          # <a name='training'>Training</a>
+          ## Courses to help you
+
+          We provide training on food higiene and .... ivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus oncus ut eleifend nib portitor. Lorem in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum giatrent nisl urekgot dapibus. Mauris iaculis porttitor posuere.
+
+        span
+          a href='#contact_us' Contact us
+
+      section
+        markdown:
+          # <a name='about_us'>About us</a>
+          ## Passion and commitment
+
+          We are passionate about cooking but most of all we are commited to our community and to help people...Vamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus oncus ut eleifend nib portitor. Lorem in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum giatrent nisl urekgot dapibus. Mauris iaculis porttitor posuere.
+
+      footer
+        section
+          markdown:
+            # <a name='contact_us'>Contact us</a>
+            Feel free to email or call us to see how we can help you.
+
+            * T: 0788 963 0814
+            * [Email us](about:blank)

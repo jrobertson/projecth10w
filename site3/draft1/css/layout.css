@@ -1,0 +1,96 @@
+html {
+  background-color: transparent;
+  /*background-image: url('http://www.jamesrobertson.eu/images/2014/oct/21/fmarket.png');
+  background-repeat: no-repeat;
+  background-position: center top;*/
+  margin: 0em; padding: 0em;
+}
+  body {
+    background-color: transparent;
+    text-align: center;
+    margin: 0em;
+    padding: 0em
+  }
+    #wrap {
+      background-color: transparent;
+      margin: 0em auto;
+      padding: 0em;
+      width: 100%;
+      min-width: 1100px;
+      max-width: 1450px;
+
+    }
+      #wrap>header {
+        background-color: transparent;
+        min-height: 6.3em;
+      }
+        #wrap>header>nav {
+          background-color: transparent;
+        }
+          #wrap>header>nav>ul {
+            background-color: transparent;
+            list-style-type: none;
+            margin: 0.1em;
+          }
+
+            #wrap>header>nav>ul>li {
+              background-color: transparent;
+              display: inline
+            }
+
+          #wrap>header>nav>ul:first-child {
+            background-color: transparent;
+            float: left;
+          }
+
+          #wrap>header>nav>ul:last-child {
+            background-color: transparent;
+            float: right;
+          }
+
+      #wrap>section {
+        background-color: transparent;
+        padding: 2.0em;        
+      }
+      /* We love to cook ... */
+      #wrap>header+section {
+        background-color: transparent;        
+        min-height: 35.4em; 
+      }
+
+      /* Events */
+      #wrap section:nth-child(3) {
+        background-color: transparent;
+        min-height: 26.4em;
+      }
+
+      /* Training */
+      #wrap section:nth-child(4) {
+        background-color: transparent;
+        min-height: 28.05em;
+      }
+
+      /* About us */
+      #wrap section:nth-child(5) {
+        background-color: transparent;
+        min-height: 21.75em;
+      }
+
+      /* Contact us */
+      #wrap>footer {
+        background-color: transparent;
+        min-height: 25.28em;
+        margin: 0em; padding: 2em;
+      }
+        #wrap>footer>section {
+          background-color: transparent
+          margin: 2em 5em; padding: 2em 3em;
+        }
+          #wrap>footer>section>ul {
+            background-color: transparent;
+            list-style-type: none;
+          }
+            #wrap>footer>section>ul>li {
+              background-color: transparent;
+            }
+

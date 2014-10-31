@@ -1,0 +1,221 @@
+html {
+  background-color: transparent
+}
+  body {
+    background-color: transparent
+  }
+    #wrap {
+      background-color: transparent;
+    }
+      #wrap>header {
+        background-color: #f4f1eb;
+        background-image: url('http://www.jamesrobertson.eu/images/2014/oct/22/top_logo.png');
+        background-repeat: no-repeat;
+        background-position: center 30px;
+        margin: 0em; 
+        min-height: 7.25em;
+        padding: 0.5em 0em;        
+      }
+        #wrap>header>nav {
+          background-color: transparent;
+          margin: 0.5em 0.3em; padding: 0.7em 0.3em;
+          overflow: hidden
+        }
+          #wrap>header>nav>ul {
+            background-color: transparent;
+            margin: 0.5em 0.3em; padding: 1.0em 0.3em;
+          }
+
+            header>nav>ul>li {
+              background-color: transparent;
+              font-size: 1.2em;
+              padding: 1em 0.7em;
+            }
+
+            header>nav>ul:first-child li {
+              background-color: transparent;
+              margin: 1em 4em 1em 1.6em;
+            }
+            header>nav>ul:last-child li {
+              background-color: transparent;
+              margin: 1em 0.8em 1em 4.0em;
+            }
+
+              #wrap>header>nav>ul>li>a {
+                background-color: transparent;
+                color: #958d8b;
+                font-weight: 300;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                text-decoration: none;
+              }
+      #wrap>section {
+        background-color: transparent;
+        color: #fff;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+      }
+        #wrap>section>p {
+          background-color: transparent;
+          font-size: 1.09em;
+          margin: 0.2em 4.0em 0.6em 4.0em;
+          padding: 0.5em 1.3em;
+        }
+        #wrap>section>h1 {
+          background-color: transparent;
+          color: #fff;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 1.3em;
+          font-weight: 400;
+          margin-top: 0.9em; margin-bottom: 0em;
+          padding-top: 1.1em; padding-bottom: 0em;  
+        }
+
+        #wrap>section>h2 {
+          background-color: transparent;
+          color: #fff;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 2.9em;
+          font-weight: 300;
+          margin-top: 0em; margin-bottom: 0.4em; 
+          padding: 0.1em;
+        }
+
+      /* We love to cook ... */
+      #wrap>header+section {
+
+        background-color: transparent;
+        background-image: url('http://www.jamesrobertson.eu/images/2014/oct/22/banner2.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        /*border: 2px solid #000; */
+        color: #f4f1eb; 
+        font-size: 4.5em; font-weight: 500; margin: 0;
+        min-height: 1.2em; 
+        padding: 2.3em 3.4em;
+      }
+
+        #wrap>header+section>p {
+          background-color: transparent;
+          margin: 0em 1.5em;
+          text-align: left;
+          padding: 0.7em;
+          width: 8em;
+        }
+
+      /* Events */
+      #wrap section:nth-child(3) {
+        background-color: #e9e3d8;
+        color: #634e42;
+        min-height: 21.8em;
+        padding: 1.3em 4em;
+      }
+      #wrap section:nth-child(3)>h1,
+      #wrap section:nth-child(3)>h2 {
+        color: #634e42;
+      }
+
+        #wrap>section:nth-child(3)>ul {
+          background-color: transparent;
+          list-style-type: none;
+          margin: 0.2em; padding: 0.2em;
+        }
+          #wrap>section:nth-child(3)>ul>li {
+            background-color: transparent;
+            margin: 0.1em; padding: 0.1em;
+          }
+
+      /* Training */
+      #wrap section:nth-child(4) {
+        background-color: #993415;  
+        min-height: 22.25em;
+        padding: 1.7em;
+      }
+
+      #wrap section:nth-child(4)>p {
+        background-color: transparent;
+        margin-bottom: 3.6em;
+      }
+
+      #wrap section:nth-child(4)>span {
+        background-color: transparent;
+        border: 2px solid #fff;
+        padding: 0.8em 2.8em;
+        text-align: center;
+      }
+
+        #wrap section:nth-child(4)>span>a {
+          background-color: transparent;
+          text-decoration: none;
+          color: #fff;
+        }
+
+
+      /* About us */
+      #wrap section:nth-child(5) {
+        background-color: #e9e3d8;
+        color: #644f43;
+        min-height: 16.9em;
+        padding-top: 1.7em;
+      }
+
+      #wrap section:nth-child(5)>h1,
+      #wrap section:nth-child(5)>h2 {
+        color: #644f43;
+      }
+
+      #wrap>footer {
+        background-image: url('http://www.jamesrobertson.eu/images/2014/oct/22/footer.png');
+        background-repeat: no-repeat;
+
+        background-position: top center;
+        text-align: left;
+        margin: 0;
+        min-height: 24.5em;
+        padding: 1.0em 2.3em;
+      }
+        #wrap>footer>section {
+          background-color: transparent;
+          color: #fff;
+          margin: 1em;
+          padding: 2.0em 5em;
+        }
+          #wrap>footer>section>h1 {
+            background-color: transparent;
+            color: #fff;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 2.4em;
+            font-weight: 300;
+            margin: 0.2em; padding: 0.5em;
+          }
+
+          #wrap>footer>section>p {
+            background-color: transparent;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            margin: 0.5em 0.5em 0.1em 0.5em; padding: 0.72em 0.8em 0.1em 0.8em;
+          }
+          #wrap>footer>section>ul {
+            background-color: transparent;
+            margin: 0.2em 0.1em; padding: 0.2em 0.7em;
+          }
+            #wrap>footer>section>ul>li {
+              background-color: transparent;
+              font-family: Verdana, Arial, Helvetica, sans-serif;
+              font-size: 1.23em;
+              margin: 0.2em 0.2em; padding: 0.6em;
+
+            }
+            #wrap>footer>section>ul>li:last-child {
+              background-color: transparent;
+              border: 2px solid #ffe;
+              float: left;
+              margin: 1.05em 0.65em; padding: 0.8em 1.0em;
+              text-align: center;
+              width: 8.6em;
+            }
+              #wrap>footer>section>ul>li>a {
+                background-color: transparent;
+                text-decoration: none;
+                color: #fff;
+              }
+

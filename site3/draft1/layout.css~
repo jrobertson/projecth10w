@@ -1,0 +1,46 @@
+html {
+  background-color: rgba(48,92,229, 0.3)
+}
+  body {
+    background-color: rgba(194,110,60, 0.3);
+    align: center;
+    text-align: center;
+    margin: 2em;
+    padding: 2em
+  }
+    #wrap {
+      background-color: rgba(83,240,174, 0.3);
+      margin: auto;
+      width: 810px
+    }
+      #wrap>header {
+        
+      }
+        #wrap>header>nav {
+          
+        }
+          #wrap>header>nav>ul {
+            background-color: rgba(186,50,138, 0.3)
+          }
+            #wrap>header>nav>ul>li {
+              background-color: rgba(145,33,55, 0.3);
+              display: inline
+            }
+      #wrap>section {
+        background-color: rgba(208,27,108, 0.3)
+      }
+        #wrap>section>h1 {
+          background-color: rgba(10,98,51, 0.3)
+        }
+        #wrap>section>p {
+          background-color: rgba(138,51,170, 0.3)
+        }
+        #wrap>section>ul {
+          background-color: rgba(127,157,110, 0.3)
+        }
+          #wrap>section>ul>li {
+            background-color: rgba(36,112,37, 0.3)
+          }
+
+gedit layout.css &
+
